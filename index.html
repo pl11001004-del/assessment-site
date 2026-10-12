@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="人情世故段位测评 —— 48题六维度社交智慧测试">
+<title>人情世故段位测评</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🀄</text></svg>">
+</head>
+<body>
+<div id="app">
+  <div class="loading-screen">
+    <div class="loading-mark">🀄</div>
+    <p>正在加载测评…</p>
+    <p class="loading-sub" id="loadingMode"></p>
+  </div>
+</div>
+
+<!-- Supabase JS：CDN 加载失败时自动进入本地演示模式 -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/config.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
